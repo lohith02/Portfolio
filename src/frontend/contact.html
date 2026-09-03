@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact — Lohith M</title>
+  <meta name="description" content="Book Lohith M for photography, video, shoots and events." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body class="contact-page">
+  <header class="site-header">
+    <a href="index.html" class="logo">LOHITH M</a>
+    <nav class="desktop-nav">
+      <a href="index.html">HOME</a>
+      <a href="index.html#folders">WORK</a>
+      <a href="gallery.html?collection=events">GALLERY</a>
+      <a href="videos.html">VIDEOS</a>
+      <a href="index.html#about">ABOUT</a>
+      <a href="contact.html" class="nav-active">CONTACT</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Open navigation"><span></span><span></span></button>
+  </header>
+  <div class="mobile-menu">
+    <nav>
+      <a href="index.html">HOME</a>
+      <a href="index.html#folders">WORK</a>
+      <a href="gallery.html?collection=events">GALLERY</a>
+      <a href="videos.html">VIDEOS</a>
+      <a href="index.html#about">ABOUT</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+  </div>
+
+  <main class="contact-main">
+    <div class="contact-page-centered-wrap">
+      <a href="index.html" class="page-back">&larr; BACK TO HOME</a>
+      <p class="section-label">CONTACT &bull; INQUIRIES</p>
+      <h1 class="section-heading-serif">Let’s make<br /><em>something real.</em></h1>
+      <p class="section-subline">
+        Tell me what you are planning. I take on editorial photography, event coverage, automotive shoots, and visual stories.
+      </p>
+
+      <div style="margin: 24px 0 12px;">
+        <a href="mailto:bilimaggalohith2005@gmail.com" class="contact-email-link">
+          bilimaggalohith2005@gmail.com
+        </a>
+      </div>
+
+      <form class="contact-form-center" id="inquiry-form">
+        <div class="form-group-center">
+          <label for="input-name">YOUR NAME</label>
+          <input id="input-name" name="name" type="text" autocomplete="name" placeholder="Enter your full name" required />
+        </div>
+        <div class="form-group-center">
+          <label for="input-email">EMAIL ADDRESS</label>
+          <input id="input-email" name="email" type="email" autocomplete="email" placeholder="you@example.com" required />
+        </div>
+        <div class="form-group-center">
+          <label for="input-service">SERVICE NEEDED</label>
+          <select id="input-service" name="service" required>
+            <option value="">Select a service category</option>
+            <option>Event Photography &amp; Coverage</option>
+            <option>Automotive &amp; Motion Shoot</option>
+            <option>Portrait &amp; Editorial Session</option>
+            <option>Commercial Video Production</option>
+            <option>Other Collaboration</option>
+          </select>
+        </div>
+        <div class="form-group-center">
+          <label for="input-date">EVENT / SHOOT DATE</label>
+          <input id="input-date" name="date" type="date" />
+        </div>
+        <div class="form-group-center">
+          <label for="input-location">CITY / VENUE</label>
+          <input id="input-location" name="location" type="text" placeholder="e.g. Bangalore, India" />
+        </div>
+        <div class="form-group-center">
+          <label for="input-budget">APPROXIMATE BUDGET</label>
+          <input id="input-budget" name="budget" type="text" placeholder="e.g. ₹50,000" />
+        </div>
+        <div class="form-group-center">
+          <label for="input-details">PROJECT BRIEF</label>
+          <textarea id="input-details" name="details" rows="5" placeholder="Share any vision, references, or timeline details..." required></textarea>
+        </div>
+        <button class="form-submit-centered" type="submit">SEND INQUIRY &rarr;</button>
+        <p class="form-status" id="form-status" role="status" style="text-align:center;"></p>
+      </form>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <span class="footer-logo">LOHITH M</span>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/_clkzzz___/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.linkedin.com/in/lohith-m-293699309" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:bilimaggalohith2005@gmail.com">Email</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>&copy; 2026 Lohith M</span>
+      <span>CREAM &amp; BLACK EDITORIAL</span>
+      <a href="#">TOP &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="contact.js"></script>
+</body>
+</html>
