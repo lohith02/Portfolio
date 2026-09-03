@@ -1,0 +1,39 @@
+/*
+ * main.css - Base stylesheet for the portfolio website
+ * Theme: Cream background, black text, muted gold accents
+ */
+
+:root {
+  --color-bg:#faf8f5;/*warm cream*/
+  --color-bg-dark:#111111;/*deep black*/
+  --color-primary:#d4af37;/*muted gold*/
+  --color-text:#111111;
+  --color-muted:#555555;
+  --font-sans:'Inter',system-ui,-apple-system,sans-serif;
+  --font-serif:'Merriweather',serif;
+  --font-size-base:1rem;
+  --line-height-base:1.6;
+  --space-1:0.25rem;
+  --space-2:0.5rem;
+  --space-3:1rem;
+  --space-4:2rem;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:var(--font-sans);font-size:var(--font-size-base);line-height:var(--line-height-base);background:var(--color-bg);color:var(--color-text)}
+.container{max-width:1200px;width:90%;margin:auto}
+.site-header{background:var(--color-bg-dark);color:#fff;padding:var(--space-2) var(--space-3);position:sticky;top:0;display:flex;align-items:center;justify-content:space-between}
+.site-header a{color:#fff;text-decoration:none;margin-left:var(--space-2)}
+.site-header a:hover{color:var(--color-primary)}
+section{padding:var(--space-4) var(--space-3)}
+section:nth-child(even){background:var(--color-bg-dark);color:#fff}
+.project-list{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:var(--space-3)}
+.project-row{display:block;padding:var(--space-3);border:2px solid var(--color-primary);border-radius:8px;text-decoration:none;color:inherit;transition:transform .2s,box-shadow .2s}
+.project-row:hover{transform:translateY(-4px);box-shadow:0 4px 12px rgba(0,0,0,.1)}
+.project-name{font-family:var(--font-serif);font-size:1.25rem;margin-bottom:var(--space-1)}
+.project-year{font-size:.875rem;color:var(--color-muted)}
+.site-footer{background:var(--color-bg-dark);color:#fff;text-align:center;padding:var(--space-3);font-size:.875rem}
+img{max-width:100%;height:auto;display:block}
+@media(max-width:768px){.site-header{flex-direction:column;align-items:flex-start}.site-header a{margin-left:0;margin-top:var(--space-1)}.project-list{grid-template-columns:1fr}}
+.lightbox{position:fixed;inset:0;background:rgba(0,0,0,.8);display:flex;align-items:center;justify-content:center;opacity:0;visibility:hidden;transition:opacity .3s}
+.lightbox.active{opacity:1;visibility:visible}
+.lightbox img{max-height:90vh;border-radius:4px}

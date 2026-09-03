@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Admin Login</title>
+  <link rel="stylesheet" href="admin.css" />
+</head>
+<body class="admin-page">
+  <main class="admin-shell admin-login-shell">
+    <p class="admin-kicker">PRIVATE AREA</p>
+    <h1>Admin access</h1>
+    <form id="admin-login-form" class="admin-form">
+      <label>USERNAME<input name="username" type="text" autocomplete="username" required /></label>
+      <label>PASSWORD<input name="password" type="password" autocomplete="current-password" required /></label>
+      <button type="submit">SIGN IN</button>
+      <p id="admin-status" class="admin-status" role="status"></p>
+    </form>
+  </main>
+  <script src="admin.js"></script>
+</body>
+</html>

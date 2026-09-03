@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gallery - Lohith M</title>
+  <meta name="description" content="Photography gallery by Lohith M." />
+  <link rel="stylesheet" href="main.css" />
+</head>
+<body class="gallery-page">
+  <header class="site-header">
+    <a href="index.html" class="logo">LOHITH M</a>
+    <nav class="desktop-nav" aria-label="Primary navigation">
+      <a href="index.html">HOME</a><a href="work.html">WORK</a><a href="projects.html">PROJECTS</a><a href="videos.html">VIDEOS</a><a href="index.html#about">ABOUT</a><a href="contact.html">CONTACT</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Open navigation"><span></span><span></span></button>
+  </header>
+  <div class="mobile-menu"><nav><a href="index.html">HOME</a><a href="work.html">WORK</a><a href="projects.html">PROJECTS</a><a href="videos.html">VIDEOS</a><a href="index.html#about">ABOUT</a><a href="contact.html">CONTACT</a></nav></div>
+
+  <main>
+    <section class="gallery-intro">
+      <a href="projects.html" class="gallery-back">BACK TO PROJECTS</a>
+      <p id="gallery-label" class="section-label"></p>
+      <h1 id="gallery-title"></h1>
+      <p id="gallery-intro" class="gallery-lede"></p>
+      <div class="gallery-switcher" role="tablist" aria-label="Gallery collections">
+        <button data-collection="events" role="tab">EVENTS</button>
+        <button data-collection="portraits" role="tab">PORTRAITS</button>
+        <button data-collection="automotive" role="tab">AUTOMOTIVE</button>
+        <button data-collection="night" role="tab">NIGHT DRIVES</button>
+      </div>
+    </section>
+    <section id="gallery-grid" class="gallery-grid" aria-label="Photography gallery"></section>
+  </main>
+  <script src="gallery-data.js"></script>
+  <script src="gallery.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

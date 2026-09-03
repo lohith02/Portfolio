@@ -1,0 +1,30 @@
+:root {
+  --black: #0a0a0a;
+  --cream: #f3ede3;
+  --gold: #a58b5b;
+  --muted: #756b5d;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; background: var(--black); color: var(--cream); font-family: Arial, sans-serif; }
+.admin-page { padding: 40px 5vw; }
+.admin-shell { width: min(100%, 1120px); margin: 0 auto; }
+.admin-login-shell { min-height: 80vh; display: grid; align-content: center; max-width: 480px; }
+.admin-header { width: min(100%, 1120px); margin: 0 auto 56px; display: flex; align-items: end; justify-content: space-between; gap: 24px; border-bottom: 1px solid rgba(243,237,227,.24); padding-bottom: 24px; }
+.admin-kicker { margin: 0 0 14px; color: var(--gold); font-size: 10px; letter-spacing: .18em; }
+h1 { margin: 0; font: 400 clamp(48px, 8vw, 100px)/.9 Georgia, serif; }
+.admin-form { display: grid; gap: 22px; margin-top: 36px; }
+label { display: grid; gap: 9px; color: var(--muted); font-size: 10px; letter-spacing: .12em; }
+input { width: 100%; border: 0; border-bottom: 1px solid rgba(243,237,227,.3); padding: 12px 0; outline: 0; background: transparent; color: var(--cream); font: inherit; }
+input:focus { border-color: var(--gold); }
+button { border: 1px solid var(--gold); padding: 13px 18px; background: var(--gold); color: var(--black); cursor: pointer; font: inherit; font-size: 10px; letter-spacing: .14em; }
+.admin-header button { background: transparent; color: var(--gold); }
+.admin-status { min-height: 20px; color: var(--muted); font-size: 12px; }
+.inquiry-list { display: grid; gap: 14px; margin-top: 28px; }
+.inquiry-card { border: 1px solid rgba(243,237,227,.2); padding: 22px; background: #111; }
+.inquiry-card header { display: flex; justify-content: space-between; gap: 20px; border-bottom: 1px solid rgba(243,237,227,.16); padding-bottom: 14px; }
+.inquiry-card h2 { margin: 0; font-size: 18px; font-weight: 400; }
+.inquiry-card time, .inquiry-meta { color: var(--gold); font-size: 10px; letter-spacing: .1em; }
+.inquiry-meta { display: flex; flex-wrap: wrap; gap: 12px 24px; margin: 16px 0; }
+.inquiry-card p { max-width: 760px; color: var(--cream); line-height: 1.6; white-space: pre-wrap; }
+@media (max-width: 620px) { .admin-page { padding: 24px 5vw; } .admin-header { align-items: start; flex-direction: column; } .inquiry-card header { display: grid; } }

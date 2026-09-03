@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Lohith M — Photographer & Visual Storyteller</title>
+  <meta
+    name="description"
+    content="Lohith M — Photographer, filmmaker and visual storyteller based in India."
+  />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@300;400;500;600&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="main.css" />
+</head>
+
+<body class="home-page">
+
+  <!-- ================= HEADER ================= -->
+  <header class="site-header">
+    <a href="index.html" class="logo">LOHITH M</a>
+
+    <nav class="desktop-nav">
+      <a href="index.html" class="nav-active">HOME</a>
+      <a href="work.html">WORK</a>
+      <a href="gallery.html?collection=events">GALLERY</a>
+      <a href="videos.html">VIDEOS</a>
+      <a href="#about">ABOUT</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+
+    <button class="menu-toggle" aria-label="Open navigation">
+      <span></span>
+      <span></span>
+    </button>
+  </header>
+
+  <!-- ================= MOBILE MENU ================= -->
+  <div class="mobile-menu">
+    <nav>
+      <a href="index.html" class="nav-active">HOME</a>
+      <a href="work.html">WORK</a>
+      <a href="gallery.html?collection=events">GALLERY</a>
+      <a href="videos.html">VIDEOS</a>
+      <a href="#about">ABOUT</a>
+      <a href="contact.html">CONTACT</a>
+    </nav>
+  </div>
+
+  <main>
+    <!-- ================= HERO WITH 3D GRAPHIC & CENTERED TITLE ================= -->
+    <section id="home" class="hero">
+      <div class="hero-bg-accent"></div>
+
+      <!-- 3D Graphic Elements -->
+      <div class="hero-3d-scene" aria-hidden="true">
+        <div class="hero-3d-ring ring-1"></div>
+        <div class="hero-3d-ring ring-2"></div>
+        <div class="hero-3d-ring ring-3"></div>
+        <div class="hero-3d-cube">
+          <div class="cube-face front"></div>
+          <div class="cube-face back"></div>
+          <div class="cube-face right"></div>
+          <div class="cube-face left"></div>
+          <div class="cube-face top"></div>
+          <div class="cube-face bottom"></div>
+        </div>
+      </div>
+
+      <!-- Centered Portfolio Content -->
+      <div class="hero-content-center">
+        <p class="hero-kicker">Visual Archive &bull; India</p>
+        <h1 class="portfolio-title-3d" id="hero-title-3d">PORTFOLIO</h1>
+        <p class="hero-subtext">
+          Frames sculpted with light, honest human moments, speed, and nighttime silence.
+        </p>
+      </div>
+
+      <div class="hero-bottom">
+        <span>EST. 2026</span>
+        <a class="scroll-indicator" href="#folders" aria-label="Scroll to folders">
+          EXPLORE WORK
+          <span class="arrow">&darr;</span>
+        </a>
+        <span>LOHITH M</span>
+      </div>
+    </section>
+
+    <!-- ================= 16:9 FOLDERS SECTION (COLORFUL & POPUP ON SCROLL) ================= -->
+    <section id="folders" class="folders-section">
+      <div class="section-header-wrap">
+        <p class="section-label">Selected Collections</p>
+        <h2 class="section-heading-serif">Archived Works</h2>
+        <p class="section-subline">
+          Click any folder to view its dedicated photo set. Every image reveals as you scroll.
+        </p>
+      </div>
+
+      <div class="folder-stack">
+        <!-- 16:9 FOLDER 01: EVENT WORKS -->
+        <a href="gallery.html?collection=events" class="folder-card-16-9 scroll-popup" id="folder-events">
+          <span class="folder-badge">01 / EVENT ARCHIVE</span>
+          <div class="folder-card-media">
+            <img
+              src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1920&q=90"
+              alt="INVINCIA 2026 Event Works"
+              loading="lazy"
+            />
+          </div>
+          <div class="folder-card-overlay"></div>
+          <div class="folder-card-info">
+            <div>
+              <p class="folder-meta-sub">Live Atmosphere &bull; Festival &bull; Concert</p>
+              <h3 class="folder-title-large">Every crowd has a story.</h3>
+              <p class="folder-desc-text">
+                Movement, stage energy, neon lights, and the intimate human expressions tucked inside vibrant crowds.
+              </p>
+            </div>
+            <span class="folder-open-action">
+              OPEN FOLDER &rarr;
+            </span>
+          </div>
+        </a>
+
+        <!-- 16:9 FOLDER 02: PORTRAITS -->
+        <a href="gallery.html?collection=portraits" class="folder-card-16-9 scroll-popup" id="folder-portraits">
+          <span class="folder-badge">02 / EDITORIAL &bull; PEOPLE</span>
+          <div class="folder-card-media">
+            <img
+              src="https://images.unsplash.com/photo-1531123897727-8f129e1688ce?auto=format&fit=crop&w=1920&q=90"
+              alt="Portraits and People"
+              loading="lazy"
+            />
+          </div>
+          <div class="folder-card-overlay"></div>
+          <div class="folder-card-info">
+            <div>
+              <p class="folder-meta-sub">Honest Stillness &bull; Natural Light</p>
+              <h3 class="folder-title-large">People caught between moments.</h3>
+              <p class="folder-desc-text">
+                Portraits made with room for stillness, vulnerability, and an unguarded point of view.
+              </p>
+            </div>
+            <span class="folder-open-action">
+              OPEN FOLDER &rarr;
+            </span>
+          </div>
+        </a>
+
+        <!-- 16:9 FOLDER 03: AUTOMOTIVE -->
+        <a href="gallery.html?collection=automotive" class="folder-card-16-9 scroll-popup" id="folder-automotive">
+          <span class="folder-badge">03 / MACHINES &bull; MOTION</span>
+          <div class="folder-card-media">
+            <img
+              src="https://images.unsplash.com/photo-1503736334956-4c8f8e92946d?auto=format&fit=crop&w=1920&q=90"
+              alt="Automotive & Machines"
+              loading="lazy"
+            />
+          </div>
+          <div class="folder-card-overlay"></div>
+          <div class="folder-card-info">
+            <div>
+              <p class="folder-meta-sub">Sculpted Lines &bull; Speed &bull; Precision</p>
+              <h3 class="folder-title-large">Steel, speed, and form.</h3>
+              <p class="folder-desc-text">
+                Engineering turned into art. Highlighting curvature, reflection, and the quiet power of moving machines.
+              </p>
+            </div>
+            <span class="folder-open-action">
+              OPEN FOLDER &rarr;
+            </span>
+          </div>
+        </a>
+
+        <!-- 16:9 FOLDER 04: NIGHT DRIVES -->
+        <a href="gallery.html?collection=night" class="folder-card-16-9 scroll-popup" id="folder-night">
+          <span class="folder-badge">04 / PERSONAL &bull; NIGHT</span>
+          <div class="folder-card-media">
+            <img
+              src="https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?auto=format&fit=crop&w=1920&q=90"
+              alt="Night Drives & Streets"
+              loading="lazy"
+            />
+          </div>
+          <div class="folder-card-overlay"></div>
+          <div class="folder-card-info">
+            <div>
+              <p class="folder-meta-sub">City Lights &bull; Empty Highways</p>
+              <h3 class="folder-title-large">The city after dark.</h3>
+              <p class="folder-desc-text">
+                Late night journeys, blurred taillights, desolate avenues, and ambient tungsten warmth.
+              </p>
+            </div>
+            <span class="folder-open-action">
+              OPEN FOLDER &rarr;
+            </span>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT SECTION: SIMPLE, ABOUT WORKS & INFORMATIVE ================= -->
+    <section id="about" class="about-section">
+      <div class="about-inner">
+        <p class="section-label">About The Work</p>
+        <h2 class="about-statement">
+          I document <em>honest moments</em>, dynamic gatherings, and aesthetic geometry across India and beyond.
+        </h2>
+
+        <div class="about-details-grid">
+          <div class="about-detail-item">
+            <h3>Philosophy</h3>
+            <p>
+              Every frame should tell an authentic story without artificial stiffness. Whether in crowded festival pits or lonely highways, real emotion takes priority.
+            </p>
+          </div>
+          <div class="about-detail-item">
+            <h3>Services</h3>
+            <p>
+              Specializing in commercial automotive photography, large-scale music festival documentation, editorial portraiture, and cinematic short motion clips.
+            </p>
+          </div>
+          <div class="about-detail-item">
+            <h3>Process</h3>
+            <p>
+              From deliberate on-site lighting to careful color grading and digital archival, every project receives meticulous attention to tone and mood.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT SECTION: SIMPLE & CENTERED ================= -->
+    <section id="contact" class="contact-section-centered">
+      <div class="contact-centered-box">
+        <p class="section-label">Get In Touch</p>
+        <h2 class="contact-title-serif">
+          Let’s create
+          <em>something memorable.</em>
+        </h2>
+        <p class="contact-intro-text">
+          Have an upcoming shoot, festival coverage, automotive campaign, or documentary project? Reach out directly.
+        </p>
+
+        <a href="mailto:bilimaggalohith2005@gmail.com" class="contact-email-link">
+          bilimaggalohith2005@gmail.com
+        </a>
+
+        <a href="contact.html" class="contact-btn-main">
+          BOOK A SHOOT &rarr;
+        </a>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="footer-top">
+      <span class="footer-logo">LOHITH M</span>
+      <div class="footer-links">
+        <a href="https://www.instagram.com/_clkzzz___/" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://www.linkedin.com/in/lohith-m-293699309" target="_blank" rel="noopener">LinkedIn</a>
+        <a href="mailto:bilimaggalohith2005@gmail.com">Email</a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; 2026 Lohith M</span>
+      <span>CREAM &amp; BLACK EDITORIAL THEME</span>
+      <a href="#home">BACK TO TOP &uarr;</a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
