@@ -1,0 +1,140 @@
+{
+  "profile": {
+    "name": "Lohith",
+    "title": "Visual Artist & Cinematographer",
+    "tagline": "Capturing the raw intersection of light, landscape, and human emotion through medium format optics and cinematic motion.",
+    "bio": "Lohith is a visual artist, photographer, and cinematographer specializing in large-format landscape expeditions, studio portraiture, and commercial campaigns. His work bridges cinematic depth with meticulous fine-art composition.",
+    "location": "Available Worldwide",
+    "email": "contact@lohithportfolio.com",
+    "phone": "+1 (555) 234-8901",
+    "availability": "Available for Worldwide Commissions",
+    "stats": [
+      {
+        "label": "Years Experience",
+        "value": "10+"
+      },
+      {
+        "label": "Global Expeditions",
+        "value": "45+"
+      },
+      {
+        "label": "Commercial Campaigns",
+        "value": "200+"
+      },
+      {
+        "label": "Awards & Honors",
+        "value": "15+"
+      }
+    ],
+    "socials": {
+      "instagram": "https://instagram.com",
+      "youtube": "https://youtube.com",
+      "twitter": "https://twitter.com",
+      "behance": "https://behance.net",
+      "linkedin": "https://linkedin.com"
+    }
+  },
+  "categories": [
+    {
+      "id": "cat_all",
+      "name": "All Archives",
+      "slug": "all",
+      "description": "Complete photography archive."
+    },
+    {
+      "id": "cat_portraits",
+      "name": "Portraits",
+      "slug": "portraits",
+      "description": "Studio and environmental portraiture."
+    },
+    {
+      "id": "cat_landscapes",
+      "name": "Landscapes",
+      "slug": "landscapes",
+      "description": "Earth, alpine, and coastal landscapes."
+    },
+    {
+      "id": "cat_street",
+      "name": "Street & Urban",
+      "slug": "street",
+      "description": "Documentary and urban street captures."
+    },
+    {
+      "id": "cat_editorial",
+      "name": "Editorial & Commercial",
+      "slug": "editorial",
+      "description": "Commissioned editorial campaigns."
+    }
+  ],
+  "photos": [],
+  "videos": [],
+  "skills": [
+    {
+      "id": "sk_1",
+      "name": "Medium Format & Stills Photography",
+      "category": "Photography",
+      "proficiency": 98,
+      "badge": "Mastery",
+      "description": "Large-format landscape expeditions, studio portraiture, and high-resolution commercial capture.",
+      "tools": [
+        "Sony Alpha",
+        "Capture One",
+        "Lightroom"
+      ],
+      "orderIndex": 0
+    },
+    {
+      "id": "sk_2",
+      "name": "Cinematography & Motion Direction",
+      "category": "Cinematography",
+      "proficiency": 95,
+      "badge": "Director",
+      "description": "Dynamic scene lighting, cinematic gimbal control, and visual storytelling.",
+      "tools": [
+        "Cinema Rigs",
+        "Anamorphic",
+        "Gimbals"
+      ],
+      "orderIndex": 1
+    },
+    {
+      "id": "sk_3",
+      "name": "Color Grading & Post-Production",
+      "category": "Post-Production",
+      "proficiency": 94,
+      "badge": "Colorist",
+      "description": "ACES workflows, film emulation, HDR finishing, and fine-art color science.",
+      "tools": [
+        "DaVinci Resolve",
+        "Photoshop",
+        "Premiere Pro"
+      ],
+      "orderIndex": 2
+    },
+    {
+      "id": "sk_4",
+      "name": "Studio & Location Lighting",
+      "category": "Lighting",
+      "proficiency": 92,
+      "badge": "Specialist",
+      "description": "Precise multi-source flash ratios, softboxes, parabolic reflectors, and natural light sculpting.",
+      "tools": [
+        "Strobes",
+        "Diffusers",
+        "Reflectors"
+      ],
+      "orderIndex": 3
+    }
+  ],
+  "journal": [],
+  "gear": [],
+  "inquiries": [],
+  "admins": [
+    {
+      "id": "admin_1",
+      "username": "admin",
+      "passwordHash": "$2a$10$yOCiK9uhdEGDPE8Sknt2gO1/D.sdIwMxmetW6HKloBGsz4I81zGJe",
+      "email": "contact@lohithportfolio.com"
+    }
+  ]
+}
