@@ -1,0 +1,16 @@
+{
+  "buildCommand": "rm -rf dist && mkdir -p dist && cp -R frontend/. dist/",
+  "outputDirectory": "dist",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/admin",
+      "destination": "/admin.html"
+    },
+    {
+      "source": "/admin-login",
+      "destination": "/admin-login.html"
+    }
+  ]
+}
